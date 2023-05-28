@@ -14,8 +14,6 @@ mask_bitness = 24 # (8, 24), 8 for binary
 
 SCANS = read_dataset(anno_fld)
 
-# Предварительно обработанные данные
-# Инициализация пустых списков для хранения данных и меток
 batch_size = 2
 input_shape = (256, 256, 1)
 epochs = 10
